@@ -54,7 +54,6 @@ flowchart LR
     SW --> CS
   end
   App --> SB[(Supabase<br/>auth · Edge Functions)]
-  SW -. sync contract, designed .-> SB
 ```
 
 | Piece | Role |
@@ -88,9 +87,9 @@ flowchart LR
 
 **Problem.** On the desktop, blocking, schedules, budgets, focus sessions and Lockdown can all apply to the same site at the same moment, and they must never contradict each other.
 
-**Design.** The Chrome extension is a Manifest V3 service worker that enforces through dynamic `declarativeNetRequest` rules, with content filters for the same 6 platforms. Every feature resolves through one decision model with documented precedence rules (Lockdown outranks everything; a break can open a site you blocked yourself, but not blocked hours or a focus session). The principle: the domain decides what should happen; the Chrome adapter decides how Chrome enforces it.
+**Design.** The Chrome extension is a Manifest V3 service worker that enforces through dynamic `declarativeNetRequest` rules, with content filters for the same 6 platforms. Every feature resolves through one decision model with documented precedence rules. The principle: the domain decides what should happen; the Chrome adapter decides how Chrome enforces it.
 
-**Why it mattered.** One decision model makes the behavior explainable and testable, and it is the same shape a shared iOS and desktop policy needs, which is why a provider-neutral sync contract with the iOS app is already designed.
+**Why it mattered.** One decision model makes the behavior explainable and testable: when features overlap, there is exactly one answer, and a test for it.
 
 ### Reliability and honest state
 
@@ -149,9 +148,8 @@ CTRL is a team project: four Stevens students built and pitched it together, and
 
 ## What's Next
 
-- Continuous integration for the iOS app on GitHub Actions
-- PostHog analytics across the activation funnel (onboarding → permissions → first block → protection activated)
-- Cross-device policy sync between iOS and Chrome
+- Continuous integration for the iOS app
+- Product analytics
 
 ---
 
