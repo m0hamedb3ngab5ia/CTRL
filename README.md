@@ -64,9 +64,9 @@ flowchart LR
 
 ## My role
 
-**Lead iOS Engineer** on a student team (2025 – present).
+** iOS Engineer** on a student team (2025 – present).
 
-- Primary contributor to the iOS codebase: ~60K lines of production Swift, written with test-driven development.
+- Contributor to the iOS codebase: ~60K lines of production Swift, written with test-driven development.
 - Built the Chrome extension (~26K lines of TypeScript and React).
 - Took the app from TestFlight beta (a dozen users in the first month, 20+ testers) to the App Store.
 - Ran an AI-assisted workflow with multiple coding agents, a shared code-review standard and parallel automated review, while owning architecture, testing and final review myself.
