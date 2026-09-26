@@ -2,12 +2,12 @@
 
 [![App Store](https://img.shields.io/badge/App_Store-available-black?logo=apple)](https://apps.apple.com/ng/app/ctrl-take-back-your-time/id6758465165)
 
-**A digital-wellbeing app for iPhone, with a companion Chrome extension, that helps people spend their attention on purpose.**
+**A digital-wellbeing app for iPhone ([on the App Store](https://apps.apple.com/ng/app/ctrl-take-back-your-time/id6758465165)), with a companion Chrome extension, that helps people spend their attention on purpose.**
 
 > This is a public showcase. The source code lives in a private repository. This page covers what CTRL is,
 > how it is built, and my part in it.
 
-🏆 **2nd place of 150+ teams** in Stevens Institute of Technology's university-wide Ansary Entrepreneurship Competition ($5,000 prize).
+🏆 **2nd place of 150+ teams** in Stevens Institute of Technology's university-wide [Ansary Entrepreneurship Competition](https://www.stevens.edu/news/innovation-expo-2026-one-day-four-years-in-the-making) ($5,000 prize).
 
 <p align="center">
   <img src="screenshots/today.png" width="220" alt="Today: daily activity rings">
@@ -68,10 +68,11 @@ flowchart LR
 
 - Contributor to the iOS codebase: ~60K lines of production Swift, written with test-driven development.
 - Built the Chrome extension (~26K lines of TypeScript and React).
-- Took the app from TestFlight beta (a dozen users in the first month, 20+ testers) to the App Store.
+- Took the app from TestFlight beta (a dozen users in the first month, 20+ testers) to the [App Store](https://apps.apple.com/ng/app/ctrl-take-back-your-time/id6758465165).
 - Ran an AI-assisted workflow with multiple coding agents, a shared code-review standard and parallel automated review, while owning architecture, testing and final review myself.
 
 ## Links
 
-- App Store: https://apps.apple.com/ng/app/ctrl-take-back-your-time/id6758465165
+- [CTRL on the App Store](https://apps.apple.com/ng/app/ctrl-take-back-your-time/id6758465165)
+- [Stevens article on the 2026 Ansary Entrepreneurship Competition](https://www.stevens.edu/news/innovation-expo-2026-one-day-four-years-in-the-making)
 - Me: [LinkedIn](https://linkedin.com/in/mohamedbengabsia) · [GitHub](https://github.com/m0hamedb3ngab5ia)
